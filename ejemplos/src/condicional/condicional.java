@@ -1,0 +1,19 @@
+package condicional;
+import java.util.Scanner;
+public class condicional {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input =new Scanner(System.in);
+		System.out.println("Introduce tu nota");
+		int nota =input.nextInt();
+		
+		if(nota>0&&nota<=10) {if(nota>=5){
+			System.out.println("Estás aprobado");}
+		else {System.out.println("No estás aprobado");}
+		}
+
+	System.out.println("fin");
+	}
+
+}

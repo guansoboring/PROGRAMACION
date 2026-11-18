@@ -1,0 +1,15 @@
+package operaciones;
+
+public class actividad1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int e1=13;
+		int e2=72;
+        double d1 = 13.69;
+        double d2 = 69.13;
+ System.out.println("El valor inicial es:" + e1+e2+d1+d2);
+ 
+	}   
+
+}

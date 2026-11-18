@@ -1,0 +1,19 @@
+package ejercicio2;
+import java.util.Scanner;
+public class ejercicio2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input =new Scanner(System.in);
+		System.out.println("Introduce la catidad de dinero(€)");
+		double euro = input.nextDouble();
+		
+		System.out.println(euro+"€"+"="+(euro*166.386)+	"₧");
+		
+		 System.out.println("Introduce la catidad de dinero(₧)");
+		 double peseta = input.nextDouble();
+		 
+		 System.out.println(peseta+"₧"+"="+(euro/166.386)+"€");
+	}
+
+}

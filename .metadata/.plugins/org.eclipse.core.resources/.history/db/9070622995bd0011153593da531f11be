@@ -1,0 +1,43 @@
+package ejercicio1;
+import java.util.Scanner;
+
+public class ejercicio1 {
+
+	public static void main (String[] args) {
+		// TODO Auto-generated method stub
+      Scanner input = new Scanner(System.in);
+      System.out.println("Introduce tu nombre");
+      String nombre = input.nextLine();
+
+      System.out.println("Introduce tus apellidos");
+      String apellidos = input.nextLine();
+
+      System.out.println("Introduce tu fecha de nacimiento");
+      long fecha = input.nextLong();
+     
+
+      System.out.println("Introduce tu salario bruto");
+      double salarioBruto = input.nextDouble();
+
+      System.out.println("Introduce tus años en la empresa");
+      int anios = input.nextInt();
+      
+     double salarioNeto=salarioBruto-(salarioBruto*0.15);
+     double aumento=(salarioBruto*0.02)*anios;
+     double salarioTotal=salarioBruto+aumento;
+     
+     
+     System.out.println("Estimad@ " +nombre+apellidos+","+"su salario bruto es "+salarioBruto+","+"teniendo en"+
+    		 "cuenta un IRPF del 15% su salario neto es"+ salarioNeto+"."+
+    		 "Debido a sus"+anios+" años trabajando en la"+
+    		 "empresa su salario se incrementará en un 2% por cada año. El aumento es de"
+    	      +aumento +"y el salario total es"+ salarioTotal + ".");
+     
+      
+      
+
+      
+
+     
+	}
+}

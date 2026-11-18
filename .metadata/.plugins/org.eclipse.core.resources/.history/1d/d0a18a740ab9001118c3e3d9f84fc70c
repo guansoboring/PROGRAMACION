@@ -1,0 +1,42 @@
+package operaciones;
+import java.util.Scanner;
+public class calculodoble {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       // Declarar input como herramienta 
+		Scanner input = new Scanner(System.in);
+		System.out.println("Introduce un número: ");
+		int num1 =input.nextInt();
+		
+		System.out.println("El doble del número es: " + 2*num1);
+		
+		System.out.println("dame un número");
+		double num2 =input.nextDouble();
+		System.out.println("dame otro número");
+		double num3 = input.nextDouble();
+		
+		boolean result1,mayorIgual,result2;
+		result1 = num2==num3;
+		
+		
+		System.out.println("El primer número es  igual que segundo? " + result1);
+		
+		
+		result2 = num2>num3;
+		
+		System.out.println("El primer número es mayor que segundo? " + result2);
+		
+		
+		mayorIgual = (num2>num3) && (num2==num3);
+		
+	    
+			
+		
+		
+		
+	
+	} 
+	
+
+}

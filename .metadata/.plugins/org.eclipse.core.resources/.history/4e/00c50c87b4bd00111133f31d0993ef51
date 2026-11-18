@@ -1,0 +1,17 @@
+package ejercicio4;
+import java.util.Scanner;
+public class ejercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Scanner input=new Scanner(System.in);
+    System.out.println("Introduce un número");
+    double numero=input.nextDouble();
+    
+    double arriba=Math.ceil(numero);
+    double abajo=Math.floor(numero);
+    double aprox=Math.round(numero);
+System.out.println("El redondeo hacia arriba es: "+arriba+"hacia abajo es: "+abajo+"aproximadamente es: "+aprox);
+	}
+
+}

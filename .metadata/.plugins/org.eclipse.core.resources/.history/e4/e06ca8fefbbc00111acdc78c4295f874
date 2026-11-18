@@ -1,0 +1,37 @@
+package Ejercicio1;
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner input = new Scanner(System.in);
+      System.out.println("Introduce tu nombre");
+      String nombre = input.nextLine();
+      
+      Scanner input = new Scanner(System.in);
+      System.out.println("Introduce tu apellidos");
+      String apellidos = input.nextLine();
+      
+      Scanner input = new Scanner(System.in);
+      System.out.println("Introduce tu edad");
+      byte edad = input.nextByte();
+      
+      Scanner input = new Scanner(System.in);
+      System.out.println("Introduce tu dirección");
+      String direccion = input.nextLine();
+      
+      Scanner input = new Scanner(System.in);
+      System.out.println("Introduce tu altura(m)");
+      double altura = input.nextDouble();
+      
+      Scanner input = new Scanner(System.in);
+      System.out.println("Introduce tu peso(kg)");
+      double peso = input.nextDouble();
+      
+      
+      
+      
+	}
+
+}

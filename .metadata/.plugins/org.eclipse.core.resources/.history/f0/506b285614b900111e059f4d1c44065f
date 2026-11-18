@@ -1,0 +1,36 @@
+package operaciones;
+
+public class actividad1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int e1=13;
+		int e2=72;
+        double d1 = 13.69;
+        double d2 = 69.13;
+        int sumaEntero=e1+e2;
+        
+        
+ System.out.println("El valor inicial es:" + e1+","+e2+","+d1+","+d2+"  "+
+		 "La suma de los enteros es: " +sumaEntero
+		 );
+ System.out.println(
+	        "1. Valores iniciales: e1=" + e1 + ", e2=" + e2 + ", d1=" + d1 + ", d2=" + d2 +
+	        " | 2. Suma enteros: " + (e1 + e2) +
+	        " | 3. Resta enteros: " + (e1 - e2) +
+	        " | 4. Producto enteros: " + (e1 * e2) +
+	        " | 5. Cociente e2/e1: " + (e2 / e1) +
+	        " | 6. Resto e2/e1: " + (e2 % e1) +
+	        " | 7. Suma double: " + (d1 + d2) +
+	        " | 8. Resta double: " + (d1 - d2) +
+	        " | 9. Producto double: " + (d1 * d2) +
+	        " | 10. División double: " + (d1 / d2) +
+	        " | 11. Resto double: " + (d1 % d2) +
+	        " | 12. Doble: e1=" + (e1 * 2) + ", e2=" + (e2 * 2) +
+	        ", d1=" + (d1 * 2) + ", d2=" + (d2 * 2) +
+	        " | 13. Suma todas: " + (e1 + e2 + d1 + d2) +
+	        " | 14. Producto todas: " + (e1 * e2 * d1 * d2)
+	    );
+	}   
+
+}

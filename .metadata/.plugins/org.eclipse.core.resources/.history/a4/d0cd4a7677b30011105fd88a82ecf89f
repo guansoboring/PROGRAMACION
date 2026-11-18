@@ -1,0 +1,5 @@
+package ejemplos;
+
+public class holamundo {
+  System.out.println("holamundo");
+}
