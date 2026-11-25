@@ -21,7 +21,7 @@ public class Ejercicio17 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner name = new Scanner(System.in);
-		System.out.println("Introduce un número");
+		System.out.println("Introduce un número entero");
 		int numero = name.nextInt();
 
 		if (Primo(numero)) {
